@@ -1,0 +1,70 @@
+.cent {
+    padding: 50px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5em;
+}
+
+.container fluid h1 {
+    /* font-family: 'Comfortaa', cursive;
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Marck Script', cursive; */
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 15em;
+    padding: 50px;
+    text-align: center;
+}
+
+body {
+    /* background: linear-gradient(#6f83d6, #2c3282); */
+    background: url(https://images.unsplash.com/photo-1600314427922-2a7243b8e715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    text-align: center; */
+}
+
+p {
+    text-align: center;
+}
+
+#pic {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 650px;
+    justify-content: space-evenly;
+    padding: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#edit {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#title {
+    font-family: griffon, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 15px;
+}
+
+
+/* [class*="col-sm"] {
+    padding: 1rem;
+    border: 2px solid green;
+    color: antiquewhite;
+    text-align: center;
+    height: 400px;
+    margin: 50px;
+} *
